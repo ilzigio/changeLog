@@ -1,6 +1,7 @@
 on:
-   milestone:
-    types: [closed]
+   push:
+    tags:
+      - 'v*']
 
 jobs:
   job-name:
